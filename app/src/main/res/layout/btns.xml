@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom"
+    android:orientation="horizontal">
+
+
+    <Button
+        android:id="@+id/btn_rock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#4286f4"
+        android:textColor="#fff"
+        android:layout_marginLeft="5dp"
+        android:text="Rock" />
+    <Button
+        android:id="@+id/btn_paper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#4286f4"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:textColor="#fff"
+        android:layout_weight="1"
+        android:text="Paper" />
+    <Button
+        android:id="@+id/btn_sci"
+        android:layout_marginRight="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#4286f4"
+
+        android:textColor="#fff"
+        android:layout_weight="1"
+        android:text="Scissors" />
+</LinearLayout>

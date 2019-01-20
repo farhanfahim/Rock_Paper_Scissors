@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff9900"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:background="#4286f4"
+        android:padding="20dp"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rock Paper Scissors" />
+    <TextView
+        android:id="@+id/tv_cpu"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:background="#4286f4"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CPU" />
+
+    <ImageView
+        android:id="@+id/iv_cpu"
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:background="#4286f4"
+        android:paddingBottom="20dp"
+        android:layout_gravity="center_horizontal"
+        app:srcCompat="@drawable/a" />
+    <TextView
+        android:id="@+id/tv_user"
+        android:textSize="20dp"
+        android:background="#ff9900"
+        android:padding="5dp"
+        android:textColor="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="YOU" />
+    <ImageView
+        android:id="@+id/iv_me"
+        android:background="#ff9900"
+        android:paddingBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:layout_gravity="center_horizontal"
+        app:srcCompat="@drawable/b" />
+
+    <include layout="@layout/btns"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="bottom"/>
+</LinearLayout>
